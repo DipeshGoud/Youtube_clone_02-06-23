@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="icon" type="images/x-icon" href="img/youtube.png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="playPage.css">    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <div class="toggle-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="index.html"><img src="img/logo.PNG" alt="Logo" class="logo"></a>
+            </div>
+            <div class="search-box">
+                <input type="text" name="search" class="search-bar" placeholder="Search">
+                <button class="search-btn"><img src="img/search.PNG" alt="Search"></button>
+            </div>
+            <div class="user-options">
+                <img src="img/video.PNG" alt="Video-Logo">
+                <img src="img/bell.PNG" alt="bell-Logo">
+                <div class="user-dp">
+                    <img src="img/profile-pic.png" alt="Profile">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="left-container">
+                <iframe id="video-player" width="560" height="315" src="" frameborder="0" allow='autoplay' allowfullscreen></iframe>
+                <div id="info"></div>
+            </div>
+            <div id="suggestion-container">
+
+            </div>
+        </div>
+    </main>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="playPage.js"></script>
+</body>
+
+</html>
