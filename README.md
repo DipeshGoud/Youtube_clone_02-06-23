@@ -4,6 +4,8 @@ YouTube-Clone Web Application
 Overview
 This is a simple web application that emulates the basic functionality of YouTube, allowing users to browse and search for videos. It fetches video data from the YouTube Data API, displays video thumbnails, and provides a basic video player for viewing videos.
 
+The primary goal of this project is to offer an engaging and user-friendly web application that replicates the core features of YouTube, allowing users to seamlessly browse, search, and enjoy video content. This YouTube-like web application provides an immersive experience for both content consumers and creators.
+
 Features
 Navigation Sidebar: The application has a navigation sidebar with links to different sections, including Home, Shorts, Subscriptions, Library, History, Watch Later, and Liked Videos.
 
